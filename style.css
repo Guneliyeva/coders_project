@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+body {
+  background: var(--White-500, #fff);
+  font-family: "Epilogue", sans-serif;
+}
+
+.container{
+  width: 1260px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* header */
+.header {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--White-500, #fff);
+}
+
+.header_logo {
+  display: flex;
+  width: 58px;
+  height: 58px;
+  padding: 2.513px 0px 2.485px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header_menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header_menu li {
+  position: relative;
+}
+
+.header_menu ul {
+  font-family: "Epilogue", sans-serif;
+}
+
+.header_menu li a {
+  color: var(--Dark-500, #141c1d);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header_menu img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px; /* İkon ile metin arasına boşluk eklemek için */
+  vertical-align: middle; /* Dikey hizalama */
+}
+
+a:visited {
+  color: black;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown li {
+  padding: 10px;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: var(--Dark-500, #141c1d);
+  text-decoration: none;
+}
+
+.dropdown li a:hover {
+  background-color: #f1f1f1;
+}
+
+.header_menu li:hover .dropdown {
+  display: block;
+}
+
+.header_icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon_button {
+  width: 24px;
+  height: 24px;
+}
+
+.login-button {
+  display: flex;
+  width: 98px;
+  height: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--Primary-500, #088395);
+  cursor: pointer;
+}
+
+.login-button span {
+  color: var(--White-500, #fff);
+
+  /* Body-1 Regular */
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* footer */
+footer {
+  border-top: 1px solid var(--gray-gray-10, rgba(163, 170, 171, 0.1));
+  background: var(--White-500, #fff);
+  width: 1440px;
+  height: 387px;
+  flex-shrink: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  display: flex;
+  width: 82px;
+  height: 82px;
+  padding: 3.553px 0px 3.514px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bold {
+  color: var(--Dark-500, #141c1d);
+
+  /* Body-1 Bold */
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+}
+
+.media_icon{
+  display: flex;
+  align-items: center;
+}
+
+.gmail {
+  display: flex;
+  align-items: left;
+}
+
+.footer ul li {
+  color: var(--Dark-500, #141c1d);
+
+  /* Body-1 Regular */
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  margin-bottom: 10px;
+}
+
+.footer_end {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pay,
+.social {
+  display: flex;
+  justify-content: space-around;
+  float: left;
+  gap: 20px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* homepage */
+
+.home {
+  width: Hug (1, 140px) px;
+  height: Hug (648px) px;
+  top: 1144px;
+  left: 150px;
+  gap: 50px;
+  opacity: 0px;
+  padding: 100px;
+  background-color: aqua;
+}
+
+.main {
+  display: flex;
+}
+
+.main h1 {
+  color: var(--Dark-500, #141c1d);
+  /* Header-1 Bold */
+  font-family: Epilogue;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 125% */
+}
+
+.btn_shop {
+  width: Hug (692px) px;
+  height: Hug (406px) px;
+  top: 294px;
+  left: 174px;
+  gap: 50px;
+  opacity: 0px;
+}
+
+.blue {
+  background: var(--primary-primary-5, rgba(8, 131, 149, 0.05));
+  width: 720px;
+  height: 994px;
+  flex-shrink: 0;
+}
+
+.blue img {
+  width: 418px;
+  height: 648px;
+  flex-shrink: 0;
+}
+
+.empty {
+  width: 720px;
+  height: 994px;
+  flex-shrink: 0;
+}
+
+.choose {
+  width: 1440px;
+  height: 5361px;
+}
+
+.home h1 {
+  stylename: Header-3 Bold;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  align-self: stretch;
+}
+
+.home p {
+  stylename: Body-1 Regular;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  align-self: stretch;
+}
+
+.container {
+  display: flex;
+  width: 1440px;
+  height: 5361px;
+  display: flex;
+  align-items: flex-start;
+  gap: 51px;
+}
+
+.choose_img {
+  display: flex;
+}
+
+.sofa_image2 {
+  display: flex;
+  flex-direction: column; /* Öğeleri dikey olarak hizalar */
+  align-items: center; /* Öğeleri yatayda ortalar */
+  justify-content: center;
+  /* gap: 30px; */
+}
+
+.choose_text img {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.products {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  background: var(--gray-gray-5, rgba(163, 170, 171, 0.05));
+}
+
+.learn_more {
+  display: inline-flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.number {
+  display: flex;
+  width: 556px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.btn_learn_more {
+  border-radius: 10px;
+  background: var(--Primary-500, #088395);
+  display: flex;
+  height: 56px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment {
+  width: 1440px;
+  height: 544px;
+  flex-shrink: 0;
+  background: var(--Primary-500, #088395);
+}
+
+.insta_stories {
+  width: 1440px;
+  height: 5361px;
+}
