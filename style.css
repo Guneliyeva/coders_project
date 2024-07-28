@@ -430,13 +430,15 @@ footer {
   padding-left: 100px;
 }
 
-.insta_stories {
-  width: 1440px;
-  height: 5361px;
-  justify-content: space-evenly;
+.insta_stories h1{
+  padding-left: 100px;
+  padding-top: 80px;
 }
+
 
 .insta_img {
   display: flex;
-  gap: 30px;
+  padding-left: 100px;
+  padding-top: 30px;
+  gap: 25px;
 }
