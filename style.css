@@ -223,10 +223,10 @@ footer {
 /* homepage */
 
 .home {
-  padding-top: 50px; 
+  padding-top: 50px;
 }
 
-.pay{
+.pay {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -237,7 +237,7 @@ footer {
   padding-top: 80px;
 }
 
-.pay p{
+.pay p {
   padding-top: 25px;
 }
 
@@ -246,6 +246,18 @@ footer {
   font-size: 24px;
   font-weight: bold;
   color: black;
+}
+
+.sticky {
+  display: inline-block;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+hr {
+  width: 193px;
+  height: 2px;
+  background: var(--Dark-500, #141C1D);
 }
 
 .choose h1 {
