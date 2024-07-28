@@ -161,6 +161,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 80px;
 }
 
 .footer_logo {
@@ -180,11 +181,13 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+  
 }
 
 .media_icon {
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
 
 .gmail {
@@ -199,13 +202,13 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .footer_end {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  padding-top: 30px;
 }
 
 .pay,
@@ -244,7 +247,7 @@ footer {
   position: relative;
 }
 .right {
-  background-color: blue;
+  
   flex: 1;
   display: flex;
   justify-content: center;
