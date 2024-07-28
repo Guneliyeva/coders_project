@@ -65,7 +65,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -74,8 +74,8 @@ body {
 .header_menu img {
   width: 24px;
   height: 24px;
-  margin-left: 5px; 
-  vertical-align: middle; 
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 a:visited {
@@ -144,7 +144,7 @@ a:visited {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -179,7 +179,7 @@ footer {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; 
+  line-height: 30px;
 }
 
 .media_icon {
@@ -198,7 +198,7 @@ footer {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
   margin-bottom: 10px;
 }
 
@@ -285,13 +285,13 @@ footer {
 }
 
 .container {
-  display: flex; 
+  display: flex;
   align-items: flex-start;
   gap: 51px;
   padding-top: 50px;
 }
 
-.choose{
+.choose {
   padding-top: 80px;
 }
 
@@ -330,7 +330,6 @@ footer {
   height: 36px;
   flex-shrink: 0;
   padding: 222px, 198px;
-  
 }
 
 .img_icon {
@@ -343,12 +342,11 @@ footer {
   padding-top: 12px;
 }
 
-
-.trending_products{
+.trending_products {
   padding: 80px;
 }
 
-.trending_products p{
+.trending_products p {
   padding-top: 20px;
 }
 
@@ -358,22 +356,20 @@ footer {
   gap: 50px;
   background: var(--gray-gray-5, rgba(163, 170, 171, 0.05));
   padding: 30px;
-  border: 2px solid rgba(128, 128, 128, 0.1); ;
+  border: 2px solid rgba(128, 128, 128, 0.1);
 }
 
-.furniture_content{
+.furniture_content {
   width: 300px;
   height: 350px;
   padding: 30px 0px;
-  border: 2px solid rgba(128, 128, 128, 0.1);
-  border-radius: 5px;
+  /* border: 2px solid rgba(128, 128, 128, 0.1);
+  border-radius: 5px; */
+}
 
-  }
-
-  .furniture img{
-    padding-left: 45px;
-  }
-
+.furniture img {
+  padding-left: 45px;
+}
 
 .learn_more {
   display: inline-flex;
@@ -382,7 +378,7 @@ footer {
   padding: 100px;
 }
 
-.learn_more1 p{
+.learn_more1 p {
   padding-top: 30px;
 }
 
@@ -395,7 +391,7 @@ footer {
   padding-top: 30px;
 }
 
-.btn_learn{
+.btn_learn {
   padding-top: 40px;
 }
 
@@ -411,7 +407,6 @@ footer {
   gap: 10px;
 }
 
-
 .comment {
   width: 1440px;
   height: 544px;
@@ -420,21 +415,20 @@ footer {
   color: white;
 }
 
-.comment h1{
+.comment h1 {
   padding-top: 50px;
   padding-left: 100px;
 }
 
-.comment p{
+.comment p {
   padding-top: 15px;
   padding-left: 100px;
 }
 
-.insta_stories h1{
+.insta_stories h1 {
   padding-left: 100px;
   padding-top: 80px;
 }
-
 
 .insta_img {
   display: flex;
