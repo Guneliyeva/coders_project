@@ -265,7 +265,6 @@ footer {
 }
 
 .home h1 {
-  stylename: Header-3 Bold;
   font-family: Epilogue;
   font-size: 40px;
   font-weight: 700;
@@ -276,7 +275,7 @@ footer {
 }
 
 .home p {
-  stylename: Body-1 Regular;
+  
   font-family: Epilogue;
   font-size: 16px;
   font-weight: 400;
