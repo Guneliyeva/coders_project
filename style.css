@@ -379,6 +379,11 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 50px;
+  padding: 50px;
+}
+
+.learn_more1 p{
+  padding-top: 30px;
 }
 
 .number {
@@ -386,6 +391,12 @@ footer {
   width: 556px;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.btn_learn{
+  padding-top: 40px;
 }
 
 .btn_learn_more {
