@@ -210,7 +210,7 @@ footer {
   padding-top: 30px;
 }
 
-.pay,
+.pay_type,
 .social {
   display: flex;
   justify-content: space-around;
@@ -223,36 +223,23 @@ footer {
 /* homepage */
 
 .home {
-  top: 1144px;
-  left: 150px;
-  gap: 50px;
-  padding: 100px;
-  width: 1440px;
+  padding-top: 50px; 
 }
 
-.pay {
-  margin: 0;
-  padding: 0;
+.pay{
   display: flex;
-  height: 100vh;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 100px;
 }
 
-.left {
-  background-color: white;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+.pay h1 {
+  padding-top: 80px;
 }
-/* .right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: ri;
-  position: relative;
-} */
 
+.pay p{
+  padding-top: 25px;
+}
 
 .text {
   position: absolute;
@@ -261,14 +248,14 @@ footer {
   color: black;
 }
 
-.home h1 {
+.choose h1 {
+  color: var(--Dark-500, #141c1d);
   font-family: Epilogue;
-  font-size: 80px;
+  font-size: 40px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 100px;
-  text-align: left;
-  align-self: stretch;
-  padding-top: 500px;
+  line-height: 52px;
+  padding-top: 80px;
 }
 
 .home p {
@@ -278,10 +265,9 @@ footer {
   line-height: 30px;
   text-align: left;
   align-self: stretch;
-  
 }
 
-.btn{
+.btn {
   padding-top: 40px;
 }
 
@@ -308,6 +294,7 @@ footer {
 
 .choose {
   padding-top: 80px;
+  padding-left: 80px;
 }
 
 .choose_img {
@@ -317,8 +304,8 @@ footer {
 
 .sofa_image2 {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 30px;
 }
