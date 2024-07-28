@@ -379,7 +379,7 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 50px;
-  padding: 50px;
+  padding: 100px;
 }
 
 .learn_more1 p{
@@ -402,6 +402,7 @@ footer {
 .btn_learn_more {
   border-radius: 10px;
   background: var(--Primary-500, #088395);
+  color: white;
   display: flex;
   height: 56px;
   padding: 20px;
@@ -410,11 +411,23 @@ footer {
   gap: 10px;
 }
 
+
 .comment {
   width: 1440px;
   height: 544px;
   flex-shrink: 0;
   background: var(--Primary-500, #088395);
+  color: white;
+}
+
+.comment h1{
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.comment p{
+  padding-top: 15px;
+  padding-left: 100px;
 }
 
 .insta_stories {
