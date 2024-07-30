@@ -23,8 +23,8 @@ body {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 /* header */
-.header {
-  width: 1440px;
+/* .header {
+  width: 1260px;
   height: 100px;
   display: flex;
   justify-content: space-around;
@@ -145,7 +145,7 @@ a:visited {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-}
+} */
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
@@ -221,8 +221,82 @@ footer {
 /* ----------------------------------------------------------------------------------------------------------------- */
 
 /* homepage */
-
+.header {
+  position: relative;
+  height: 130vh;
+}
 .home {
+  padding-top: 50px;
+}
+
+.pay {
+  padding-left: 30px;
+}
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.right {
+  position: absolute;
+  background-color: rgba(8, 131, 149, 0.05);
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  padding-top: 173px;
+  padding-left: 163px;
+}
+.right_img {
+  width: 418px;
+}
+.right_img img {
+  width: 100%;
+}
+
+.pay h1 {
+  color: var(--Dark-500, #141c1d);
+  /* Header-1 Bold */
+  font-family: Epilogue;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 125% */
+  padding-top: 194px;
+}
+.header_position {
+  position: absolute;
+  bottom: 122px;
+  right: 634px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.sticky img {
+  width: 100%;
+}
+.header_position_2 {
+  width: 102px;
+}
+
+.pay p {
+  padding-top: 25px;
+  color: var(--Dark-500, #141c1d);
+  /* Body-1 Regular */
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.sticky {
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+}
+
+/* .home {
   padding-top: 50px;
 }
 
@@ -268,16 +342,16 @@ hr {
   font-weight: 700;
   line-height: 52px;
   padding-top: 80px;
-}
+} */
 
-.home p {
+/* .home p {
   font-family: Epilogue;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
   align-self: stretch;
-}
+} */
 
 .btn {
   padding-top: 40px;
